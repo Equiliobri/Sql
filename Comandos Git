@@ -11,4 +11,4 @@ git push origin main
 
 - Github para computador
 
-git pull origin main
+==>  git pull origin main  => atualiza o arquivo commitado no Github para o Computador
