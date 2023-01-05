@@ -1,5 +1,14 @@
+
+- Computador para o Github
+
 git add .   =>  adiciona o arquivo
 git status  => verifica o status do arquivo
 git log     => vefica se existe commit
 git commit -m "msg"  => prepara o arquivo para subir para branch
 git push origin main
+
+-----------------------------------------------
+
+- Github para computador
+
+git pull origin main
