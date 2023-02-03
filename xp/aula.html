@@ -1,0 +1,49 @@
+<html>
+<script>
+
+function VerificaNumeroPrimo(numero){
+    var resultado = true;
+   
+  for (var i = 2; i < numero; i++) {
+    
+    if (numero % i === 0){
+       
+    resultado = false;
+    break;
+    
+    }
+  }
+  
+  return resultado;
+  
+
+  
+}
+ 
+   function primosMenoresQueX(numero){
+    var primos = [];
+    for (var i = 2; i < numero; i++){
+        if (VerificaNumeroPrimo(i)) {
+            primos.push(i);
+
+        }
+
+    }
+    return primos;
+   }
+            function somaPrimosMenoresQueX(numero){
+                    var primos = primosMenoresQueX(numero);
+                    var total = 0;
+
+                     for (var i = 0; i < primos.length; i++) {
+                        total = total += primos[i];
+                     }
+            return total;
+
+            }
+
+   
+
+</script>
+
+</html>

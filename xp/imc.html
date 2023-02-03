@@ -1,0 +1,35 @@
+<html>
+<script>
+  
+
+
+  function imc(peso, altura){
+    var imc = peso / (altura * altura);
+
+
+    if (imc < 18.5){
+        console.log ("Abaixo do Peso");
+
+    } else if (imc >= 18.5 && imc < 25) {
+        console.log ("Peso Normal")
+        } else if (imc >= 25  && imc < 30) {
+        console.log ("Sobrepeso");
+
+      } else if (imc >= 30  && imc < 35) {
+        console.log ("Obeso");
+
+      } else if (imc >= 35  && imc < 40) {
+        console.log ("Goduxo");
+
+        }
+  
+
+/*console.log ("Entre com o seu peso : " + peso);
+console.log ("Entre com o sua altura : " + alt);
+
+return resultado;*/
+ return imc;
+}
+</script>
+
+</html>
